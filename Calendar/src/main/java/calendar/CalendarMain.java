@@ -158,7 +158,7 @@ public class CalendarMain {
 		if (diagnose) {
 	
 
-			System.out.println("The number of appointments between "+ todatDate +" and " + tomorrowDate);
+			System.out.println("The number of appointments between "+ todatDate +" and " + todatDate);
 			calDays = new LinkedList<CalDay>();
 			calDays = timeTable.getApptRange(listAppts, today, tomorrow);
 			for (int i = 0; i < calDays.size(); i++)

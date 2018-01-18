@@ -50,7 +50,7 @@ public class TimeTable {
 	        }
 	        
 	        //Retrieve the appts - <appt> 
-		for (int i = 0; i < appts.size(); i++) {
+		for (int i = 1; i < appts.size(); i++) {
 			Appt appt=appts.get(i);
 			if(!appt.getValid()) continue;
 			// Figure out which days the appointment occurs on
@@ -207,7 +207,7 @@ public class TimeTable {
 
 	        //Remove the appointment from the list appts if applicable
 	        
-	        for(int i=1;i<appts.size()-1;i++){
+	        for(int i=0;i<appts.size()-1;i++){
 	        	Appt tempAppt=appts.get(i);
 	        	if(tempAppt.equals(appt)){
 	        		appts.remove(i);
