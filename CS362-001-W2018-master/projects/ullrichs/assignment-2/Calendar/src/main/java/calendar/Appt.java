@@ -15,7 +15,7 @@ import java.util.Comparator;
  *   
  */
 /**
- * Stores the dataa of an appointment
+ * Stores the data of an appointment
  */
 public class Appt implements  Comparable<Appt>{
     
@@ -77,7 +77,7 @@ public class Appt implements  Comparable<Appt>{
      * appointment and then call setRecurrence(...) method.
      * @param startHour The hour that the appointment starts on. The hours are
      *      numbered 0-23 to represent 12a.m. to 11pm on the day specified.
-     * @param startMinute The minute of the hour the appointment starts on.
+     * @param startMinute The minute of the hour the appointment starts onn.
      * @param startDay The day of the month the appointment starts on.
      * @param startMonth The month of the year the appointment starts on.
      * @param startYear The year the appointment starts on.
