@@ -21,7 +21,9 @@ public class TimeTableTest {
 	 }
 	 @Test
 	  public void test02()  throws Throwable  {
-		 
-	 }
+
+        
+    }
+    
 //add more unit tests as you needed
 }

@@ -15,7 +15,7 @@ import java.util.Comparator;
  *   
  */
 /**
- * Stores the data of an appointment
+ * Stores the dataa of an appointment
  */
 public class Appt implements  Comparable<Appt>{
     
