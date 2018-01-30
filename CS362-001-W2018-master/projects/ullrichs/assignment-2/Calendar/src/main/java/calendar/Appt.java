@@ -17,7 +17,8 @@ import java.util.Comparator;
 /**
  * Stores the data of an appointment
  */
-public class Appt implements  Comparable<Appt>{
+public class Appt implements  Comparable<Appt>
+{
     
     /** Used for knowing whether or not an appointment is valid or not */
     private boolean valid;

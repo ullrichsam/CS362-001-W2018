@@ -28,7 +28,8 @@ public class TimeTable {
      * @throws DateOutOfRangeException If any of the days constructed by the
      *  given values are invalid, or if lastDay is not after firstDay.
      **/
-	  public LinkedList<CalDay> getApptRange(LinkedList<Appt> appts,GregorianCalendar firstDay, GregorianCalendar lastDay)throws DateOutOfRangeException{
+	  public LinkedList<CalDay> getApptRange(LinkedList<Appt> appts,GregorianCalendar firstDay, GregorianCalendar lastDay)throws DateOutOfRangeException
+	  {
 		  
 		     //Create a linked list of calendar days <CalDay> to return
 	        LinkedList<CalDay> calDays = new LinkedList<CalDay>();
@@ -49,8 +50,7 @@ public class TimeTable {
 	            nextDay.add(nextDay.DAY_OF_MONTH, 1);
 	        }
 	        
-	        //Retrieve the appts - <appt> 
-		for (int i = 1; i < appts.size(); i++) {
+		for (int i = 0; i < appts.size(); i++) {
 			Appt appt=appts.get(i);
 			if(!appt.getValid()) continue;
 			// Figure out which days the appointment occurs on

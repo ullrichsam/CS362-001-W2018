@@ -70,12 +70,14 @@ public class CalDay {
 	 * the appointment actually occurs on this day. This is so the recurring
 	 * appointments can be added. The appointment can also be added twice.
 	 */
-	public void addAppt(Appt appt) {
+	public void addAppt(Appt appt) 
+	{
 		if (appt.getValid()) {
 			for (int i = 0; i < getAppts().size(); i++) {
 				//Put the appointment in the correct order - finish this
 				if (((Appt)getAppts().get(i)).getStartHour() >
-										appt.getStartHour()) {
+										appt.getStartHour()) 
+				{
 					
 					getAppts().add(i, appt);
 					return;

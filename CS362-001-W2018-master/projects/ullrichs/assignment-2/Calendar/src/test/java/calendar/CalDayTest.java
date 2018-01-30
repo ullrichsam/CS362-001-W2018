@@ -3,42 +3,96 @@ package calendar;
  *  This class provides a basic set of test cases for the
  *  CalDay class.
  */
-import java.util.Calendar;
 import java.util.GregorianCalendar;
-import java.util.LinkedList;
-
-
-import org.junit.Test;
-
+import java.util.Iterator;
 import static org.junit.Assert.*;
+import org.junit.Test;
+import java.util.Calendar;
 
-public class CalDayTest {
-
-	 private LinkedList<Appt> appts;
-
+public class CalDayTest 
+{	 
 	@Test
-	  public void CalDayMethodTest(GregorianCalendar cal)  throws Throwable  {
-		 CalDay calDay = new CalDay();
-		 
-		assertEquals(cal.get(cal.DAY_OF_MONTH), calDay.getDay());
-		assertEquals(cal.get(cal.MONTH), calDay.getMonth());
-		assertEquals(cal.get(cal.YEAR), calDay.getYear());
-		assertTrue(calDay.isValid());
-	 }
-	 
+	public void test01()  throws Throwable  
+	{
+		int year;
+		int month;
+		int day;
+		int startHour=21;
+		int startMinute=30;
+		int startDay=15;
+		int startMonth=01;
+		int startYear=2018;
+		String title="Birthday Party";
+		String description="This is my birthday party.";
+		Calendar cal = Calendar.getInstance();
+		year = cal.get(Calendar.YEAR);
+		month = cal.get(Calendar.MONTH)+1;
+		day = cal.get(Calendar.DAY_OF_MONTH);
+		GregorianCalendar gregCal = new GregorianCalendar(year,month,day);
+		CalDay calDay = new CalDay(gregCal);
+		CalDay calDay2 = new CalDay();
+	//Construct a new Appointment object with the initial data
+		Appt appt = new Appt(startHour, startMinute, startDay, startMonth, startYear, title, description);
+		Appt appt2 = new Appt( 23,1,1,1,1,"none","none");
+		Appt appt3 = new Appt( 23,1,1,1,1,"none","none");
+		calDay.addAppt(appt3);
+		assertEquals(1,calDay.getSizeAppts());
+		calDay.addAppt(appt2);
+		assertEquals(2,calDay.getSizeAppts());
+		assertEquals(null,calDay2.iterator());
+		StringBuilder sb = new StringBuilder();
+		String todayDate = month + "/" + day + "/" + year;
+		sb.append("\t --- " + todayDate + " --- \n");
+		sb.append(" --- -------- Appointments ------------ --- \n");
+		Iterator<Appt> iterator = calDay.appts.iterator();
+		while(iterator.hasNext())
+		{
+			Object element = iterator.next();
+			sb.append(element + " ");
+		}
+		sb.append("\n");
+		assertNotEquals(sb.toString(),calDay.toString());		
+	}
+	
 	 @Test
-	  public void addApptTest(Appt appt)  throws Throwable  {
-		 CalDay AddAppt = new CalDay();
-		 assertTrue(AddAppt.getAppts().add(appt));
-	 }
+	  public void test02()  throws Throwable  
+	 {
+		Calendar cal = Calendar.getInstance();
+		int year;
+		int month;
+		int day;
+		year = cal.get(Calendar.YEAR);
+		month = cal.get(Calendar.MONTH)+1;
+		day = cal.get(Calendar.DAY_OF_MONTH);
+		GregorianCalendar gregCal = new GregorianCalendar(year,month,day);
+		
+		CalDay calDay = new CalDay(gregCal);
+		Appt appt1 = new Appt(22,1,1,1,1,"none","none");
+		calDay.addAppt(appt1);
+		Appt appt2 = new Appt(23,1,1,1,1,"none","none");
+		calDay.addAppt(appt2);
+		calDay.iterator();
+		Iterator<Appt> iterator = calDay.appts.iterator();
+		assertTrue(iterator.hasNext());
+		Appt appt4 = new Appt(25,1,1,1,1,"none","none");
+		calDay.addAppt(appt4);
+		assertNotEquals(1,calDay.getSizeAppts());
+		Appt appt5 = new Appt(23,5,5,5,5,"none","none");
+		calDay.addAppt(appt5);
+		assertNotEquals(2,calDay.getSizeAppts());
+	}
 	 
-	  @Test
-	  public void setApptsTest(LinkedList<Appt> appts)  throws Throwable  {
-		  CalDay SetAppt = new CalDay();
-		  assertTrue(SetAppt.isValid());
-		  if(appts!=null)
-				this.appts = appts;
-		  assertEquals(appts,SetAppt.appts);	  
-	  }
-//add more unit tests as you needed	
+	@Test
+	public void test03()  throws Throwable  
+	{
+		GregorianCalendar gregCal = new GregorianCalendar(1,1,1);
+		CalDay day1 = new CalDay(gregCal);
+		Appt appt1 = new Appt(23,1,1,1,1,"none","none");
+		Appt appt2 = new Appt(10,1,1,1,1,"none","none");
+		day1.addAppt(appt1);
+		day1.addAppt(appt2);
+		assertEquals(appt2, day1.getAppts().get(0));
+		CalDay day2 = new CalDay();
+		String s = day2.toString();	
+	}
 }
