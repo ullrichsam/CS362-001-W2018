@@ -1,0 +1,25 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 Cambria;\f1\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\ri720\partightenfactor0
+
+\f0\b\fs24 \cf0 Bug-Reports
+\f1 \
+\pard\pardeftab720\ri720\partightenfactor0
+
+\f0\b0 \cf0 1. All appointment strings where returned as \'91null\'92\
+Appt.java the method toString() has an \'91if\'92 statement that returns null\
+I was able to identify this issue by first running the Calender application. I also was able to observe the cause in test05 of ApptTest.java assertEquals() line 149 and 153\
+\
+(I had to fix the above bug to trance down other issue because most of the returned data was \'91null\'92.)\
+\
+2. \'91am\'92 and \'91pm\'92 where mismatched \
+Appt.java the method represntationApp () was returning \'91am\'92 for times after 11 hours. \
+Identified by in test05 of ApptTest.java assertEquals() line 149 and 153 \
+\
+Other issues not identified:\
+CalDayTest, test01 line 48. Was returning a \'913\'92 for month instead of \'9112\'92\
+}
