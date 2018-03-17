@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Calendar,finalprojectA,RegexValidator,151,105,28,14,34,22,21,8,4,4
+Calendar,finalprojectA,DomainValidator.ArrayType,89,0,0,0,9,0,2,0,2,0
+Calendar,finalprojectA,DomainValidator.new Object() {...},61,0,0,0,1,0,1,0,1,0
+Calendar,finalprojectA,UrlValidator,66,354,22,64,26,97,22,39,4,14
+Calendar,finalprojectA,ResultPair,0,9,0,0,0,4,0,1,0,1
+Calendar,finalprojectA,DomainValidator,237,6327,53,30,73,50,45,20,6,12
+Calendar,finalprojectA,DomainValidator.IDNBUGHOLDER,10,0,0,0,3,0,2,0,2,0
+Calendar,finalprojectA,InetAddressValidator,178,67,53,11,48,16,30,8,2,4
