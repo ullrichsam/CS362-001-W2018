@@ -1,0 +1,143 @@
+2018-03-11 17:10:25,801 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-03-11 17:13:31,365 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-11 17:13:45,137 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-03-11 17:13:47,048 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: calendar:Calendar:1.0-SNAPSHOT @ /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/pom.xml.
+2018-03-11 17:13:48,227 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: calendar:Calendar:1.0-SNAPSHOT @ /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/Calendar/pom.xml.
+2018-03-11 17:13:48,367 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:13:48,367 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/Calendar/src/main/resources
+2018-03-11 17:13:48,370 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:13:48,370 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/Calendar/src/test/resources
+2018-03-11 17:13:48,610 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myteammate-yokoyamh_Calendar/src/main/java
+2018-03-11 17:13:48,641 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:13:48,641 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/Calendar/src/main/resources
+2018-03-11 17:13:48,643 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:13:48,643 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/Calendar/src/test/resources
+2018-03-11 17:13:48,666 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myteammate-yokoyamh_Calendar/src/test/java
+2018-03-11 17:13:49,302 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:13:49,303 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-11 17:13:49,304 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:13:49,305 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-11 17:13:52,209 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2018-03-11 17:13:52,211 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:13:52,211 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-11 17:13:52,212 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-03-11 17:13:52,213 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:13:52,213 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-11 17:13:52,701 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: calendar:Calendar:1.0-SNAPSHOT @ /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/Calendar/pom.xml.
+2018-03-11 17:13:52,748 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: calendar:Calendar:1.0-SNAPSHOT @ /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/pom.xml.
+2018-03-11 17:13:53,142 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Calendar/src/main/java
+2018-03-11 17:13:53,152 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Calendar/src/test/java
+2018-03-11 17:13:53,369 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myteammate-yokoyamh_Calendar/src/main/java
+2018-03-11 17:13:53,379 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myteammate-yokoyamh_Calendar/src/test/java
+2018-03-11 17:13:53,715 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:13:53,715 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/Calendar/src/main/resources
+2018-03-11 17:13:53,718 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:13:53,719 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/Calendar/src/test/resources
+2018-03-11 17:13:54,258 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2018-03-11 17:13:54,608 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:13:54,609 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-11 17:13:54,610 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:13:54,611 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-11 17:16:31,328 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:16:31,329 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/Calendar/src/main/resources
+2018-03-11 17:16:31,331 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:16:31,331 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/Calendar/src/test/resources
+2018-03-11 17:16:31,337 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:16:31,337 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-11 17:16:31,339 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 17:16:31,339 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-11 20:27:31,207 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 20:27:31,208 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-11 20:27:31,210 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 20:27:31,210 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-11 20:29:03,576 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 20:29:03,577 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-11 20:29:03,580 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 20:29:03,580 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-11 20:32:23,651 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 20:32:23,652 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-11 20:32:23,654 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 20:32:23,654 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-11 21:40:52,973 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 21:40:52,975 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-11 21:40:52,979 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-11 21:40:52,979 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 21:02:19,108 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:02:19,110 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 21:02:19,116 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:02:19,116 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 21:12:29,112 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:12:29,114 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 21:12:29,116 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:12:29,117 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 21:12:30,501 [Worker-282] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: calendar:Calendar:1.0-SNAPSHOT @ /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/pom.xml.
+2018-03-12 21:12:30,677 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:12:30,677 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 21:12:30,685 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:12:30,685 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 21:27:26,664 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:27:26,664 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 21:27:26,667 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:27:26,667 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 21:27:59,005 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:27:59,005 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 21:27:59,007 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:27:59,007 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 21:28:51,644 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:28:51,644 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 21:28:51,646 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:28:51,647 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 21:29:09,558 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:29:09,558 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 21:29:09,559 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:29:09,559 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 21:32:15,125 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:32:15,125 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 21:32:15,129 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:32:15,129 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 21:32:56,550 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:32:56,550 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 21:32:56,552 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 21:32:56,553 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 22:01:08,549 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:01:08,550 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 22:01:08,553 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:01:08,553 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 22:01:09,677 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:01:09,677 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 22:01:09,679 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:01:09,680 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 22:01:30,369 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:01:30,370 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 22:01:30,372 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:01:30,372 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 22:42:26,601 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:42:26,602 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 22:42:26,604 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:42:26,604 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 22:42:27,748 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:42:27,748 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 22:42:27,748 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:42:27,749 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 22:49:50,696 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:49:50,697 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 22:49:50,699 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:49:50,699 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-12 22:49:51,857 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:49:51,857 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-12 22:49:51,858 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-12 22:49:51,859 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-13 17:31:33,995 [Worker-519] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-13 17:31:33,998 [Worker-519] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-13 17:31:34,000 [Worker-519] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-13 17:31:34,000 [Worker-519] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources
+2018-03-13 17:31:35,399 [Worker-523] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: calendar:Calendar:1.0-SNAPSHOT @ /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/Calendar/pom.xml.
+2018-03-13 17:31:35,587 [Worker-523] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-13 17:31:35,587 [Worker-523] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/Calendar/src/main/resources
+2018-03-13 17:31:35,590 [Worker-523] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-13 17:31:35,591 [Worker-523] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/Calendar/src/test/resources
+2018-03-13 17:31:36,094 [Worker-524] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: calendar:Calendar:1.0-SNAPSHOT @ /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/pom.xml.
+2018-03-13 17:31:36,244 [Worker-524] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-13 17:31:36,244 [Worker-524] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/main/resources
+2018-03-13 17:31:36,246 [Worker-524] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-13 17:31:36,246 [Worker-524] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/myteammate-yokoyamh/Calendar/src/test/resources

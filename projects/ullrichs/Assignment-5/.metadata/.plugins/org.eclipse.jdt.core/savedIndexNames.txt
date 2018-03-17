@@ -1,0 +1,6 @@
+INDEX VERSION 1.130+/Users/Mojo/Documents/CS362/projects/ullrichs/Assignment-5/.metadata/.plugins/org.eclipse.jdt.core
+3206836183.index
+766482951.index
+1828089775.index
+3485196442.index
+1237075365.index
